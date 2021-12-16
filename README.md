@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Spin4ester.github.io/rsschool-cv/cv
