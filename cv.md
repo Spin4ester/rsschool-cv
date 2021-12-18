@@ -4,9 +4,9 @@
 ## Bio
 
 * **Location:** Budapest, Hungary
-* **E-mail:** [bakibayev.r@gmail.com] (mail:tobakibayev.r@gmail.com)
-* **Github:** [@Spin4ester] (https://github.com/Spin4ester)
-* **Linkedin:** [Profile] (https://www.linkedin.com/in/rustam-bakibayev-982b7870/)
+* **E-mail:** [bakibayev.r@gmail.com](mail:tobakibayev.r@gmail.com)
+* **Github:** [@Spin4ester](https://github.com/Spin4ester)
+* **Linkedin:** [Profile](https://www.linkedin.com/in/rustam-bakibayev-982b7870/)
 
 
 ## About Me
