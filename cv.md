@@ -4,9 +4,9 @@
 ## Bio
 
 * **Location:** Budapest, Hungary
-* **E-mail:** bakibayev.r@gmail.com
-* **Github:** @Spin4ester
-* **Linkedin:** [My profile] (https://www.linkedin.com/in/rustam-bakibayev-982b7870/)
+* **E-mail:** [bakibayev.r@gmail.com] (mail:tobakibayev.r@gmail.com)
+* **Github:** [@Spin4ester] (https://github.com/Spin4ester)
+* **Linkedin:** [Profile] (https://www.linkedin.com/in/rustam-bakibayev-982b7870/)
 
 
 ## About Me
@@ -33,7 +33,7 @@ Currently I work in Schneider Electric's Budapest Office as Advannced Calculatio
 * 2019-2020: Schneider Electric, Senior Energy Forecast Analyst
 * 2017-2019: Schneider Electric, Energy Forecast Analyst
 
-====
+
 ## Education
 
 * 2021-Present: Rolling Scopes School, Frontend/JavaScript Developer Course
