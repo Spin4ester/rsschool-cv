@@ -4,7 +4,7 @@
 ## Bio
 
 * **Location:** Budapest, Hungary
-* **E-mail:** [bakibayev.r@gmail.com](mail:tobakibayev.r@gmail.com)
+* **E-mail:** [bakibayev.r@gmail.com](mailto:bakibayev.r@gmail.com)
 * **Github:** [@Spin4ester](https://github.com/Spin4ester)
 * **Linkedin:** [Profile](https://www.linkedin.com/in/rustam-bakibayev-982b7870/)
 
@@ -49,3 +49,4 @@ Currently I work in Schneider Electric's Budapest Office as Advannced Calculatio
 | Russian      | Native       |
 | English   | Fluent        |
 | Turkish   | Intermediate        |
+| German   | Beginner        |
