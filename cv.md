@@ -1,5 +1,6 @@
 # Rustam Bakibayev
 
+![My photo](photo.jpg)
 
 ## Bio
 
