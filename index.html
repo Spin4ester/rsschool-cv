@@ -4,9 +4,270 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="icon" href="assets/icons/binary-code.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Rustam Bakibayev</title>
     
-</body>
+</head>
+    <body>
+        
+
+
+
+<!-- MAIN -->
+
+<div class="container">
+
+<main class="main">
+
+ <!-- MAIN left block -->
+
+    <aside class="block-left">
+
+        <div class="header-photo">
+            <img class="my-photo" src="./assets/img/photo.png" alt="Profile photo">
+        </div>
+
+        <div class="contacts">
+            <h2 class="contacts-header">Contacts</h2>
+
+            <ul class="contacts-list">
+                <li class="contacts-item" onclick="location.href='https://cutt.ly/VUaayWD'">
+                    <img class="contacts-icon" src="./assets/icons/location.png" alt="Check current location on Google maps">
+                    Budapest, Hungary
+                </li>
+                <li class="contacts-item" onclick="location.href='mailto:bakibayev.r@gmail.com'">
+                    <img class="contacts-icon" src="./assets/icons/email.png" alt="Send Email">
+                    bakibayev.r@gmail.com
+                </li>
+                <li class="contacts-item" onclick="location.href='https://github.com/Spin4ester'">
+                    <img class="contacts-icon" src="./assets/icons/github.png" alt="Check Github account">
+                    Spin4ester
+                </li>
+                <li class="contacts-item" onclick="location.href='https://www.linkedin.com/in/rustam-bakibayev-982b7870/'">
+                    <img class="contacts-icon" src="./assets/icons/linkedin.png" alt="Check Linkedin Account">
+                    Linkedin Profile
+                </li>
+                <li class="contacts-item" style="cursor: default;">    
+                    <img class="contacts-icon" src="./assets/icons/discord.png" alt="Discrod Username">
+                    @Spin4ester
+                </li>
+            </ul>
+        </div>
+
+    </aside>
+    
+    
+    
+ <!-- MAIN right block -->
+
+<div class="right-block">
+
+     <!-- HEADER -->
+    <header class="header">
+        <h1 class="header-name">RUSTAM BAKIBAYEV</h1>
+        <h2 class="header-title">Junior Frontend Developer</h2>
+    </header>
+    
+
+    <!-- NAVIGATION -->
+
+    
+        <nav class="nav-list">
+            <a href="#about" class="nav-item">About Me</a>
+            <a href="#education" class="nav-item">Education</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#code" class="nav-item">My Code</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#work" class="nav-item">Work Experience</a>
+            <a href="#language" class="nav-item">Language Skills</a>
+        </nav>
+    
+
+<!-- MAIN ELEMENTS -->
+    
+        <section class="main-item" id="about">
+            <div class="section-header">
+                <img class="img-section" src="./assets/icons/cv.png" alt="About me section">
+            <h2 class="main-header">About Me</h2>
+            </div>
+            <p>Currently I work in Schneider Electric's Budapest Office as Advanced Calculation Tool Architecture Specialist. I decided to switch my career direction since I was interested in creating rather than using various platforms. I don't know if Frontend Development will be my final destination, but I am sure I will give it all to go as far as possible.  </p>
+        </section>
+
+  <!-- MAIN EDUCATION   -->
+
+        <section class="main-item" id="education">
+            <div class="section-header">
+                <img class="img-section" src="./assets/icons/mortarboard.png" alt="Education section">
+            <h2 class="main-header">Education</h2>
+            </div>
+                <table class="education">
+                    <tr>
+                        <td class="education-date">2021-Present</td>
+                        <td class="education-place"><b>Rolling Scopes School</b> <p>Frontend/JavaScript Developer Course</p></td>
+                    </tr>
+                    <tr>
+                        <td class="education-date">2015-2017</td>
+                        <td class="education-place"><b>Central European University</b>
+                            <p>MA in Economic Policy in Global Markets</p></td>
+                    </tr>
+                    <tr>
+                        <td class="education-date">2010-2014</td>
+                        <td class="education-place"><b>American University in Central Asia</b> <p>BA in Economics</p></td>
+                    </tr>
+                </table>
+        </section>
+
+<!-- MAIN SKILLS   -->
+    
+        <section class="main-item" id="skills">
+        <div class="section-header">
+            <img class="img-section" src="./assets/icons/settings.png" alt="Skills Section">
+            <h2 class="main-header">Skills</h2>
+        </div>
+            <div class="skills">
+                <ul class="skills-grid">
+                    <li class="skills-item"><img class="skills-icon" src="./assets/icons/html5.png" alt="HTML5"> HTML5</li>
+                    <li class="skills-item"><img class="skills-icon" src="./assets/icons/css.png" alt="CSS"> CSS3</li>
+                    <li class="skills-item"><img class="skills-icon" src="./assets/icons/javascript.png" alt="JavaScript"> JavaScript</li>
+                    <li class="skills-item"><img class="skills-icon" src="./assets/icons/github2.png" alt="Github"> Git & Github</li>
+                </ul>
+            </div>
+
+        </section>
+
+<!-- MAIN CODE   -->
+    
+        <section class="main-item" id="code">
+            <div class="section-header">
+                <img class="img-section" src="./assets/icons/web-programming.png" alt="Code Section">
+            <h2 class="main-header">Code Examples</h2>
+            </div>
+            <div class="code-bg">
+                <pre>
+// program to generate a multiplication table
+
+// take input from the user
+const number = parseInt(prompt('Enter an integer: '));
+
+//creating a multiplication table
+for(let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * number;
+
+    // display the result
+    console.log(`${number} * ${i} = ${result}`);
+}
+                </pre>
+            </div>
+        </section>
+
+
+ <!-- MAIN PROJECTS   -->
+
+
+ <section class="main-item" id="projects">
+    <div class="section-header">
+        <img class="img-section" src="./assets/icons/portfolio.png" alt="Projects section">
+    <h2 class="main-header">Projects</h2>
+    </div>
+    <div class="project-item" onclick="location.href='https://github.com/Spin4ester/rsschool-cv/tree/rsschool-cv-html'">
+        <img class="project-img" src="./assets/img/project1.jpg" alt="Open CV project">
+        <b>Curriculum Vitae</b>
+    </div>
+</section>
+    
+
+<!-- MAIN WORK   -->
+
+        <section class="main-item" id="work">
+            <div class="section-header">
+                <img class="img-section" src="./assets/icons/suitcase.png" alt="###">
+            <h2 class="main-header">Work Experience</h2>
+             </div>  
+                <table class="work">
+                    <tr>
+                        <td class="work-date">2020-Present</td>
+                        <td class="work-place"><b>Schneider Electric Energy & Sustainability Services</b> <p>ACT Architecture and Configuration Specialist</p></td>
+                    </tr>
+                    <tr>
+                        <td class="work-date">2019-2020</td>
+                        <td class="work-place"><b>Schneider Electric Energy & Sustainability Services</b> 
+                            <p>Senior Energy Forecast Analyst</p></td>
+                    </tr>
+                    <tr>
+                        <td class="work-date">2017-2019</td>
+                        <td class="work-place"><b>Schneider Electric Energy & Sustainability Services</b> 
+                            <p>Energy Forecast Analyst</p></td>
+                    </tr>
+                </table>
+            
+        </section>
+    
+
+
+
+
+ <!-- MAIN LANGUAGES   -->
+        <section class="main-item" id="language">
+            <div class="section-header">
+                <img class="img-section" src="./assets/icons/language.png" alt="Languages section">
+            <h2 class="main-header">Language Skills</h2>
+            </div>
+
+            <table class="languages">
+                <tr>
+                    <td class="language-name">Russian</td>
+                    <td class="language-level">Native</td>
+                </tr>
+                <tr>
+                    <td class="language-name">English</td>
+                    <td class="language-level">Fluent</td>
+                </tr>
+                <tr>
+                    <td class="language-name">German</td>
+                    <td class="language-level">Beginner</td>
+                </tr>
+                <tr>
+                    <td class="language-name">Turkish</td>
+                    <td class="language-level">Intermediate</td>
+                </tr>
+            </table>
+
+        </section>
+
+</div>
+
+</main> 
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    
+        <div class="footer-item" onclick="location.href='https://rs.school/js/'">
+            <img class="footer-banner" src="./assets/img/rs_school_js.svg" alt="Check RS School Website">
+        </div>
+        <div class="footer-item" onclick="location.href='https://github.com/Spin4ester'">
+            <img class="footer-icon" src="./assets/icons/github.png" alt="Check Github Profile">
+            Spin4ester
+        </div>
+        <div class="footer-date">
+             &copy; 2021 <p>Rustam Bakibayev (RS School)</p>
+        </div>
+
+
+</footer>
+
+
+</div>
+
+    </body>
 </html>
+
+
