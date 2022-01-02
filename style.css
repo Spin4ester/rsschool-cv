@@ -1,3 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+
+:root {
+    --main-color: black;
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 3rem;
+    --h2-font-size: 1.7rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --font-light: 200;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    /* min-height: 100vh; */
+    max-width: 1300px;
+    
+   
+    margin: 0 auto;
+    box-shadow: 0px 5px 45px 5px gray;
+}
+
+
+@media (min-width: 1400px) {
+
+.container {
+    max-width: 1320px;
+}
+}
+
+/* @media (min-width: 576px) {
+.container {
+    max-width: 540px;
+}
+} */
+
+
+.main {
+    display: flex;
+}
+
+/*=========== SIDEBAR ============*/
+
+.block-left {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    min-height: 100vh;
+    width: 300px;
+    margin-left: 20px;
+    background-color: var(--main-color)
+}
+
+.header-photo {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.my-photo {
+    width: 220px;
+    height: 220px;
+}
+
+.contacts {
+    color: white;
+    text-align: left;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+
+.contacts-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.contacts-item:hover,
+.contacts-item:hover a {
+    color: var(--main-color);
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+
+.contacts-icon {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.contacts-item:hover img {
+    -webkit-filter: grayscale(1) invert(0);
+    filter: grayscale(1) invert(0);
+    transition: 0.3s;
+}
+
+.contacts-link {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*=========== MAIN ============*/
+
+.right-block {
+    display: block;
+    width: 1000px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.main-item {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.header {
+    margin: 0 0 20px 20px;
+    color: var(--main-color);
+}
+
+.header-name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-light);
+    margin: 0px;
+}
+
+.header-title {
+    font-size: var(--h2-font-size);
+}
+
+/*=========== NAVIGATION ============*/
+
+
+.nav-list {
+    margin: 50px 20px 40px 20px;
+}
+
+.nav-item {
+    text-decoration: none; 
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid transparent
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+/*=========== RIGHT BLOCK SECTIONS ============*/
+
+.section-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 30px;
+}
+
+.img-section {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* MAIN EDUCATION */
+
+
+.education-date {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.education-place {
+    text-align: left;
+    padding: 0 60px 0 20px;
+    border: 1px solid black;
+}
+
+
+/* MAIN SKILLS */
+
+.skills-grid {
+    padding: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+.skills-item {
+    font-size: var(--h3-font-size);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.skills-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+/* img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+  } */
+
+
+/* MAIN CODE */
+
+.code-bg {
+    padding: 20px;
+    font-size:var(--normal-font-size);
+    font-weight: bold;
+    background-color: lightgrey;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+
+/* MAIN PROJECTS */
+
+.project-item {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    font-weight: var(--font-light);
+}
+
+.project-item:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 5px var(--main-color);
+    transition: 0.3s;
+}
+
+.project-img {
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+/* MAIN WORK */
+
+
+.work-date {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.work-place {
+    text-align: left;
+    padding: 0 60px 0 20px;
+    border: 1px solid black;
+}
+
+
+
+/* MAIN LANGUAGES */
+
+
+.language-name {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.language-level {
+    text-align: left;
+    padding: 0 10px 0 10px;
+    border: 1px solid black;
+}
+
+
+/*=========== FOOTER ============*/
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    /* margin-top: 40px; */
+}
+
+.footer-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0 15px 10px;
+    font-size: var(--h3-font-size);
+    color: white;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+
+.footer-banner {
+    width: 150px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.footer-date {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 15px 10px;
+    color: white;
+
+}
+
+.footer-item:hover,
+.footer-item:hover a {
+    color: var(--main-color);
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+
+.footer-item:hover img {
+    -webkit-filter: grayscale(1) invert(0);
+    filter: grayscale(1) invert(0);
+    transition: 0.3s;
 }
